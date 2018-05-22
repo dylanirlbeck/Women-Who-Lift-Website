@@ -1,0 +1,143 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+
+}
+a:hover{
+  background-color: #fff;
+  color: #000;
+}
+ul {
+  margin-top: 50px;
+  list-style-type: none;
+  float: right
+
+
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+nav {
+  width: 100%;
+  height: 100px;
+
+}
+a {
+  color: #fff;
+  transition: 0.6s ease;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+  display: inline;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.emblemImg {
+  opacity: 0.9;
+  width: 80px;
+  height: 100px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+form{
+  margin-top: 20px;
+}
+
+.form-control{
+  width: 300px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+
+  letter-spacing: 2px;
+  height: 50px;
+}
+
+form .submit:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+  opacity: 0.95;
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('../img/Ratner.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('../img/Weights.jpg');
+  min-height:400px;
+}
+.pimg3{
+  background-image:url('../img/Food.jpg');
+  min-height:400px;
+}
+.pimg4{
+  background-image:url('../img/Chicago.jpg');
+  min-height:100%;
+}
+
+
+.section{
+  text-align:center;
+  padding:50px 80px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
