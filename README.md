@@ -1,1 +1,2 @@
 # Women-Who-Lift-Website
+Women Who Lift is an organization that empowers women through weightlifting with educational workshops, guest speakers, and group training sessions. This is the official organization website that is currently under development. Inquiries on the organization should be made to the founder, Alexis Cacioppo, at acaciop7@uchicago.edu. Inquiries on the website should be made to the developer, Dylan Irlbeck, at irlbeck2@illinois.edu.
