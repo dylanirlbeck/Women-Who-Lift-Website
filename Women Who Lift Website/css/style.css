@@ -8,6 +8,9 @@ body, html{
   color:#666;
 
 }
+.emblemImg:hover {
+  cursor: pointer;
+}
 a:hover{
   background-color: #fff;
   color: #000;
